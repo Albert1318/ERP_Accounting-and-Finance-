@@ -1,0 +1,224 @@
+{
+  "id": "04906003-27d2-40a2-b4e2-57b6da0fd248",
+  "version": "1.1",
+  "name": "login",
+  "url": "http://localhost/accounting/finance/index.php",
+  "tests": [{
+    "id": "46153e4d-35c1-4b0f-88b6-30ad12705c99",
+    "name": "login",
+    "commands": [{
+      "id": "2f438efa-3bb7-49af-ba76-dd88fa26b9ec",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/accounting/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0e9f058-98ba-4f49-86c5-913e11e3c141",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "733x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88c72fc6-eadb-41f7-a629-b1296b900b2b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=finance/",
+      "targets": [
+        ["linkText=finance/", "linkText"],
+        ["css=tr:nth-child(4) a", "css:finder"],
+        ["xpath=//a[contains(text(),'finance/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'finance/')]", "xpath:href"],
+        ["xpath=//tr[4]/td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd553f6f-8b8b-4001-9296-f422328dc651",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "joyjoy"
+    }, {
+      "id": "659952c7-4948-46b2-9410-9b9c763c215e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "b5b62fbd-160e-4707-91f1-9d7bb16d7cf7",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b045ae97-21a7-47e5-baad-424ef42fc864",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26118c0-0f88-4362-9767-196e137f8b5d",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "13855054-3804-41d5-af40-44bcf08ad930",
+      "comment": "",
+      "command": "click",
+      "target": "name=branch",
+      "targets": [
+        ["name=branch", "name"],
+        ["css=select[name=\"branch\"]", "css"],
+        ["css=.select2", "css:finder"],
+        ["xpath=//select[@name='branch']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2397e226-3783-4e4e-961d-9f7b5a7684ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=button[name=\"login\"]", "css"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54368c5b-3f7c-4e92-bef6-2913ca895798",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "joyjoy"
+    }, {
+      "id": "48b70fb0-4d0b-49c7-8cff-01489d78838f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "dbd845ac-093f-419e-a454-5f5bc1cd145e",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07609c23-9450-4223-a787-2f07bebab6c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "78b8d75b-7456-471c-aafb-03b220709513",
+      "comment": "",
+      "command": "click",
+      "target": "name=branch",
+      "targets": [
+        ["name=branch", "name"],
+        ["css=select[name=\"branch\"]", "css"],
+        ["css=.select2", "css:finder"],
+        ["xpath=//select[@name='branch']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96a5c05e-5287-4f95-b998-b98453abe6bf",
+      "comment": "",
+      "command": "select",
+      "target": "name=branch",
+      "targets": [],
+      "value": "label=WINE"
+    }, {
+      "id": "93a99a6c-f2a4-4b9a-8971-6e0cc59a919c",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=button[name=\"login\"]", "css"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fe037399-f206-47ee-a69a-60cf48de77d7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["46153e4d-35c1-4b0f-88b6-30ad12705c99"]
+  }],
+  "urls": ["http://localhost/accounting/finance/index.php"],
+  "plugins": []
+}

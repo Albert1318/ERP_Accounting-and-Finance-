@@ -1,0 +1,73 @@
+{
+  "id": "2c631072-baa1-4fae-b0c5-5c7f1ae06837",
+  "version": "1.1",
+  "name": "logout",
+  "url": "http://localhost/accounting/finance/pages/home.php",
+  "tests": [{
+    "id": "0936ba26-fe73-40ee-8199-50cab0cefa36",
+    "name": "logout",
+    "commands": [{
+      "id": "626b5e06-d6bf-48ac-8fed-e69aa46a2a94",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/accounting/finance/pages/home.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc82bb26-1aa3-47ca-8631-6c7e238a75a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "733x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0641c455-141d-460b-a231-9770f992153d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=li:nth-child(7) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(@href, 'logout.php')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab485384-4290-4da6-a3b7-1d27513e4b89",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "joyjoy"
+    }, {
+      "id": "071d6504-be41-44c2-a97b-3316513c9199",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }]
+  }],
+  "suites": [{
+    "id": "18894c2e-1e23-430b-8dbb-21c64f641eb6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0936ba26-fe73-40ee-8199-50cab0cefa36"]
+  }],
+  "urls": ["http://localhost/accounting/finance/pages/home.php"],
+  "plugins": []
+}
